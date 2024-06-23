@@ -1,0 +1,2 @@
+cd C:\path\to\your\project\target
+java -jar MONEYACCOUNT-1.0-SNAPSHOT-jar-with-dependencies.jar

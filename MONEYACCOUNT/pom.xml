@@ -11,4 +11,33 @@
         <maven.compiler.target>19</maven.compiler.target>
         <exec.mainClass>com.mybankaccount.moneyaccount.MONEYACCOUNT</exec.mainClass>
     </properties>
+     <build>
+        <plugins>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+             <version>3.1.1</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                    <configuration>
+                        <archive>
+                            <manifest> 
+                                <mainClass>
+                                    com.mybankaccount.moneyaccount.ProyectWallet
+                                </mainClass>        
+                            </manifest>
+                        </archive>
+                        <descriptorRefs>
+                           <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                    </configuration>
+                </execution> 
+            </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
