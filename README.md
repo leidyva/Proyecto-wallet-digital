@@ -1,4 +1,4 @@
-## First exercise
+## Proyect-Digital-Wallet
 ### Subject:
 #### Programming
 ### Members:
