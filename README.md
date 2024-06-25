@@ -3,6 +3,7 @@
 #### Programming
 ### Members:
 #### Kevin Segovia and Leidy Vacacela
-#### Proyect of how to make the root_square of a number in python.
-### Program display
+#### Proyect of a digital wallet in java Netbeans
+
 ##### Used language and libraries/packages: Java
+### Program display:
